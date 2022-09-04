@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hair with cafe</title>
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		(function (d) {
+			var config = {
+				kitId: 'bwc0akh',
+				scriptTimeout: 3000,
+				async: true
+			},
+				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+</head>
+
+<body>
+
+	<!--　ヘッダー　-->
+	<header class="header header__home-bg">
+		<h3 class="header__heading-lv3">Hair with cafe</h3>
+		<nav>
+			<ul class="header-nav">
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="hair.html">Hair salon</a>
+				</li>
+				<li>
+					<a href="cafe.html">Cafe</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="header__img-container">
+			<div class="header__img-wrap">
+				<figure class="header__img">
+					<img src="images/reserve.png">
+				</figure>
+				<p class="header__local header__local--border"><a href="#contact">RESERVE</a></p>
+			</div>
+			<div class="header__img-wrap">
+				<figure class="header__img">
+					<img src="images/access.png">
+				</figure>
+				<p class="header__local"><a href="#access">ACCESS</a></p>
+			</div>
+		</div>
+		<img src="images/home-mainvisual.jpg" class="header__mainvisu" alt="メインビジュアル">
+	</header>
+
+	<!--　タイトル　-->
+	<section class="title fadeout">
+		<h3 class="title__heading-lv3">About</h3>
+		<p class="title__text">
+			お客様のなりたいヘアスタイルやあこがれのスタイルを是非、当美容院で叶えて下さい。髪質や量、髪の色など一人ひとり違いますので、そのためのアドバイスやサポートを丁寧にさせていただきます。</p>
+	</section>
+
+	<!--　ニュース　-->
+	<section class="news">
+		<div class="news__inner">
+			<h4 class="news__heading-lv4">NEWS / </h4>
+			<h5 class="news__heading-lv5">お知らせ</h5>
+		</div>
+		<div>
+			<p class="news__text">2022.07-17　予約状況のお知らせ</p>
+			<p class="news__text">2022.07-10　ホームページリニューアル</p>
+		</div>
+	</section>
+
+	<!--　メニュー　-->
+	<section class="menu">
+		<div class="menu__img">
+			<div>
+				<a href="hair.html">
+					<div class="menu__wrap fadeout">
+						<p class="menu-img__text">content01</p>
+						<p class="menu-img__title">Salon</p>
+					</div>
+				</a>
+				<div class="fadeout">
+					<p class="menu__cap-title">初回全メニュー20%OFF</p>
+					<p class="menu__cap-text">【メンバーズカード】
+						技術料金￥2,000で1スタンプ<br>
+						20ポイントで￥1,000OFF<br>
+						さらにプレミアムカードにランクアップ<br>
+						一年間技術料金10%OFFにさせていただきます</p>
+				</div>
+			</div>
+			<div>
+				<a href="cafe.html">
+					<div class="menu__wrap2 fadeout">
+						<p class="menu-img__text">content02</p>
+						<p class="menu-img__title">Cafe</p>
+					</div>
+				</a>
+				<div class="fadeout">
+					<p class="menu__cap-title">Salonご利用の方、ドリンク¥100OFF</p>
+					<p class="menu__cap-text">特別にブレンドされたコーヒーをご用意いたしました。<br>
+						カフェご利用のみでもOKです。<br>
+						施術中にもご注文頂けます。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--　写真　-->
+	<section class="pic">
+		<div class="pic__wrap">
+			<figure class="pic__1 fadeout">
+				<img src="images/pic.jpg">
+			</figure>
+			<figure class="pic__2 fadeout">
+				<img src="images/pic2.jpg">
+			</figure>
+		</div>
+		<div class="pic__wrap2">
+			<figure class="pic__3 fadeout">
+				<img src="images/pic3.jpg">
+			</figure>
+			<figure class="pic__3 fadeout">
+				<img src="images/pic4.jpg">
+			</figure>
+			<figure class="pic__3 fadeout">
+				<img src="images/pic5.jpg">
+			</figure>
+		</div>
+	</section>
+
+	<!--　アクセス　-->
+	<section class="access" id="access">
+		<div class="access__map fadeout">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.9628438175077!2d135.46135229999996!3d34.706117100000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e5e481367bf3%3A0x1fd6c967e3c90145!2z44CSNTU1LTAwMjUg5aSn6Ziq5bqc5aSn6Ziq5biC6KW_5reA5bed5Yy65aer6YeM77yR5LiB55uu77yR77yV4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1655794151601!5m2!1sja!2sjp" width="536" height="341" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div class="access__wrap fadeout">
+			<div class="access__heading">
+				<h4 class="access__heading-lv4">ACCESS / </h4>
+				<h5 class="access__heading-lv5">アクセス</h5>
+			</div>
+			<div class="access__text-wrap">
+				<p class="">住所</p>
+				<p class="">
+					　　〒555-0025<br>
+					　　大阪府大阪市西淀川区姫里1丁目15-16
+				</p>
+			</div>
+			<div class="access__text-wrap">
+				<p class="">開店時間</p>
+				<p class="">10:00 ~ 20:00</p>
+			</div>
+			<div class="access__text-wrap">
+				<p class="">定休日</p>
+				<p class="">　火曜日</p>
+			</div>
+			<div class="access__text-wrap">
+				<p class="">駐車場</p>
+				<p class="">　有り（３台）</p>
+			</div>
+		</div>
+	</section>
+
+	<!--　コンタクト　-->
+	<section class="contact" id="contact">
+		<p class="contact__text">ご予約の方は、下記電話番号からご連絡下さい。</p>
+		<p class="contact__tel"><a>TEL　　　00-0000-0000</a></p>
+		<p class="contact__text">予約受付時間　10:00~20:00</p>
+	</section>
+
+	<!--　フッター　-->
+	<footer>
+		<p class="copyright">Ⓒcpoyright hair salon All Right Reserved.</p>
+	</footer>
+
+</body>
+
+</html>
